@@ -14,12 +14,12 @@
       <img class="logo"src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png); "  alt="Mountain-Conqueror"></a>
 
 				<ul id="navigation">
-        <?php $args = array( 
-        'theme_location' => 'header-menu',
-        'menu_class' =>'selected'
-       );
-        wp_nav_menu($args);
-         ?>
+              <?php $args = array( 
+              'theme_location' => 'header-menu',
+              'menu_class' =>'selected'
+            );
+              wp_nav_menu($args);
+              ?>
 				</ul>
 			</div>
 		</div>
